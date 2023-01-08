@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+header{
+    background-image: url(img/banner/banner3.png);
+    height: 630px;
+    width: 100%;
+    display: flex;
+    
+}
+.nothing{
+    width: 65%;
+}
+.banner{
+  width: 25%;
+  margin-top: 200px;
+  text-align: right;
+}
+.banner-title{
+   font-size: 45px;
+   padding: 10px 0;
+   color: #fff;
+}
+.banner-discription{
+   color: #fff;
+   margin: 20px 0px;
+}
+.paimary-btn{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background: #fff;
+    color: #005FAC;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
