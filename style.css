@@ -35,3 +35,37 @@ header{
     font-size: 13px;
     font-weight: 600;
 }
+/* previous year my failure section design  */
+.Yfailur{
+    display: flex;
+    margin: 130px 70px;
+}
+.failur-iteam{
+    margin-top: 450px;
+    width: 35%;
+}
+.Mainimg{
+    width: 60%;
+    height: 70%;
+}
+.ftitle{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.fdiscription{
+   line-height: 20px;
+   width: 400px;
+   text-align: justify;
+}
+.f-list{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 20px;
+}
+.f-list li{
+    padding: 10px 0;
+}
+.fa-solid{
+    padding-right: 20px;
+    color: green;
+}
