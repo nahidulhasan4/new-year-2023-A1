@@ -94,4 +94,33 @@ header{
 }
 .plan-caption{
 
+    /* album section design */
+}
+.album-banner{
+   margin: 130px 40px;
+}
+.box{
+    /* background-image: url(img/gradient1.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-image: url(img/gradient1.png);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.album-bannerimg{
+    background: linear-gradient(90deg, #005FAC -1.14%, rgba(0, 95, 172, 0) 98.86%);
+    height: 400px;
+    padding: 40px;
+    width: 60%;    
+}
+.album-title{
+
+}
+.gradient{
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.text-box{
+
 }
