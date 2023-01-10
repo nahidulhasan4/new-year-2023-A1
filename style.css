@@ -92,20 +92,20 @@ header{
   margin-bottom: 10px; 
   margin-top: 10px;   
 }
-.plan-caption{
-
-    /* album section design */
-}
+/* ALBUM SECTION BANNER */
 .album-banner{
    margin: 130px 40px;
 }
 .box{
-    /* background-image: url(img/gradient1.png);
-    background-repeat: no-repeat;
-    background-size: cover; */
+    
     background-image: url(img/gradient1.png);
     background-repeat: no-repeat;
     position: absolute;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
 }
 .album-bannerimg{
     background: linear-gradient(90deg, #005FAC -1.14%, rgba(0, 95, 172, 0) 98.86%);
@@ -114,7 +114,12 @@ header{
     width: 60%;    
 }
 .album-title{
-
+   margin: 40px 60px;
+   margin-top: 150px;
+   width: 330px;
+   font-size: 30px;
+   color: #fff;
+   font-weight: 600;
 }
 .gradient{
     position: relative;
@@ -122,5 +127,91 @@ header{
 }
 
 .text-box{
+    height: 400px;
+    width: 100%;
+    background-image: url(img/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
 
+}
+.Apaimary-btn{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background: #fff;
+    color: #005FAC;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 60px;
+}
+.Apaimary-btn a{
+    text-decoration: none;
+    color: #005FAC;
+}
+/* ALBUM SECTION BENNAR */
+.footer{
+    margin-top: 130px;
+    color: #fff;
+    background: #151414;
+    height: 400px;
+}
+.footer-box{
+  display: flex;
+}
+.footer-info{
+  width: 40%;
+  padding: 40px 30px;
+  margin: 0 70px;
+  padding-left: 50px;
+  align-items: center;
+
+}
+.footer-message{
+   width: 40%;
+   padding: 40px 30px;
+}
+.footer-title{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.footer-pragrap{
+ font-size: 10px;
+ width: 250px;
+ line-height: 18px;
+ margin-bottom: 20px;
+}
+.email{
+  font-size: 10px;
+  margin-bottom: 15px;
+}
+.phn{
+ font-size: 10px;
+ margin-bottom: 15px;
+}
+.footer-subtitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+   
+}
+.emailf{
+    width: 325px;
+    height: 34px;
+    border: 1px solid #fff;
+    background-color: black;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.fpaimary-btn{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background: #005FAC;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
 }
