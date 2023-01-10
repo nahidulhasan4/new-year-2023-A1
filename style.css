@@ -36,6 +36,7 @@ header{
     border-radius: 5px;
     font-size: 13px;
     font-weight: 600;
+    cursor: pointer;
 }
 /* previous year my failure section design  */
 .Yfailur{
@@ -214,4 +215,5 @@ header{
     border-radius: 5px;
     font-size: 13px;
     font-weight: 600;
+    cursor: pointer;
 }
