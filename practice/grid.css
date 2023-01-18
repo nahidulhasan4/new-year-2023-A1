@@ -1,0 +1,36 @@
+.header{
+   grid-area: header;
+}
+  
+.nav{
+   grid-area: nav;
+}
+  
+.main{
+   grid-area: main;
+}
+  
+.adv{
+   grid-area: adv;
+}
+  
+.footer{
+   grid-area: footer;
+}
+.aside{
+    grid-area: aside;
+}
+.header , .adv , .aside , .nav , .footer , .main{
+    background-color: #f46;
+}
+.grid-container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr , 4fr , 1fr;
+    grid-template-areas: 
+    "header header header header"
+    "nav main main aside"
+    "nav main main adv"
+    "footer footer footer footer"
+    ;
+}
